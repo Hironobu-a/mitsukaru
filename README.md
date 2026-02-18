@@ -61,6 +61,13 @@
 | `DOMAIN_CICD_POLICY_AND_STEPS.md` | **全社** | CI/CD構築の方針と手順 |
 | `DOMAIN_LP_MANAGEMENT_POLICY.md` | **全社** | LP・ドメイン管理の運用ルール |
 
+### **5_System_Design/** (システム設計)
+新規開発・機能追加時のアーキテクチャ設計方針
+
+| ファイル | 対象 | 概要 |
+|---------|------|------|
+| `SHIGYO_JOB_SITE_SYSTEM_DESIGN.md` | **士業求人サイト** | Migration設計・FormRequest方針・Service層・Featureテスト設計 |
+
 ---
 
 ## 🚀 新メンバーのオンボーディング
