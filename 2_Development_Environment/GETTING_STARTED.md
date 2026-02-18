@@ -9,7 +9,7 @@ Nemieluプロジェクトへようこそ。このドキュメントは、プロ�
 プロジェクトのドキュメントは、目的別に以下のフォルダに整理されています。
 
 - **1_Management_Strategy/**: 経営方針、技術ロードマップ、チーム体制など
-  - `CTO_MANAGEMENT_PLAN.md`: CTOによる運営方針
+  - `CTO_MANAGEMENT_PLAN.md`: 技術戦略・開発方針書
   - `TECH_DEBT_ROADMAP.md`: 技術的負債の解消計画
   - `TEAM_STRUCTURE.md`: チーム体制と役割分担
 - **2_Development_Environment/**: 開発環境構築、ツールガイド

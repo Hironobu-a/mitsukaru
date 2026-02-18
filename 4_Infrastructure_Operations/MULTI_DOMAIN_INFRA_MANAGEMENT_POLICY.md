@@ -1,7 +1,7 @@
-# 複数ドメイン・サービス横断の構造的管理方針（CTO策定）
+# 複数ドメイン・サービス横断の構造的管理方針
 
-**最終更新**: 2026年2月17日  
-**対象**: CTO・インフラ担当
+**最終更新**: 2026年2月18日  
+**対象**: インフラ担当・開発チーム
 
 ---
 
@@ -110,8 +110,8 @@ terraform show
 
 | ドメイン | プロジェクト | レジストラ | DNS管理 | SSL証明書 | 有効期限 | 自動更新 | 担当者 |
 |---------|------------|----------|---------|----------|---------|---------|--------|
-| tax.mitsukaru-pro.co.jp | 求人サイト | お名前.com | Route53 | ACM | 2027/06/30 | ✅ | CTO |
-| mitsukaru-corp.co.jp | コーポレート | お名前.com | Cloudflare | Let's Encrypt | 自動 | ✅ | CTO |
+| tax.mitsukaru-pro.co.jp | 求人サイト | お名前.com | Route53 | ACM | 2027/06/30 | ✅ | 正社員 |
+| mitsukaru-corp.co.jp | コーポレート | お名前.com | Cloudflare | Let's Encrypt | 自動 | ✅ | 正社員 |
 
 #### SSL証明書の取得（Let's Encrypt）
 ```bash
@@ -194,7 +194,7 @@ sudo certbot renew --dry-run
 #### ドキュメント更新ルール
 - インフラ変更時は**必ず**Notionを更新
 - PR説明文に「ドキュメント更新: [NotionリンK]」を記載
-- 月次でCTOがドキュメント棚卸しを実施
+- 月次で正社員エンジニアがドキュメント棚卸しを実施
 
 ---
 
@@ -211,7 +211,7 @@ sudo certbot renew --dry-run
 ```
 Organization: mitsukaru
 ├── Team: Admin
-│   └── CTO（全リポジトリの管理者権限）
+│   └── 正社員エンジニア（全リポジトリの管理者権限）
 ├── Team: Backend
 │   └── バックエンドエンジニア（書き込み権限）
 └── Team: Frontend
