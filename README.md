@@ -13,7 +13,7 @@
 
 | プロジェクト | 概要 | 技術スタック |
 |------------|------|------------|
-| **Nemielu** | 眠気・覚醒度測定サービス（主力プロダクト） | Laravel 8 + PHP 8.0 + MySQL |
+| **ミツプロ (tax.mitsukaru-pro.co.jp)** | 税理士業界特化型転職・求人プラットフォーム（主力プロダクト） | Laravel 8 + PHP 8.0 + MySQL |
 | **ミツカルコーポレート (mitsukaru-corp.co.jp)** | コーポレートサイト | WordPress (Git管理) |
 | **ミツプロコーポレート (mitsukaru-pro.co.jp)** | コーポレートサイト | WordPress |
 | **求人サイト (tax.mitsukaru-pro.co.jp)** | 税理士求人サイト | Laravel (Git管理) |
@@ -28,8 +28,8 @@
 
 | ファイル | 対象 | 概要 |
 |---------|------|------|
-| `CTO_MANAGEMENT_PLAN.md` | **Nemielu** | 技術戦略・開発方針書 |
-| `TECH_DEBT_ROADMAP.md` | **Nemielu** | 技術的負債の解消計画 |
+| `CTO_MANAGEMENT_PLAN.md` | **ミツプロ** | 技術戦略・開発方針書 |
+| `TECH_DEBT_ROADMAP.md` | **ミツプロ** | 技術的負債の解消計画 |
 | `TEAM_STRUCTURE.md` | **全社** | 開発チーム体制・役割分担 |
 
 ### **2_Development_Environment/** (開発環境)
@@ -37,10 +37,10 @@
 
 | ファイル | 対象 | 概要 |
 |---------|------|------|
-| `GETTING_STARTED.md` | **Nemielu** | 最初に読むべきスタートガイド |
-| `DEVELOPMENT_GUIDE.md` | **Nemielu** | 詳細な開発環境の使い方 |
-| `DATABASE_TOOLS_GUIDE.md` | **Nemielu** | DBツール (phpMyAdmin等) の使い方 |
-| `DB_QUICK_REFERENCE.md` | **Nemielu** | DB接続情報・テーブル構成 |
+| `GETTING_STARTED.md` | **ミツプロ** | 最初に読むべきスタートガイド |
+| `DEVELOPMENT_GUIDE.md` | **ミツプロ** | 詳細な開発環境の使い方 |
+| `DATABASE_TOOLS_GUIDE.md` | **ミツプロ** | DBツール (phpMyAdmin等) の使い方 |
+| `DB_QUICK_REFERENCE.md` | **ミツプロ** | DB接続情報・テーブル構成 |
 
 ### **3_Testing_Quality/** (品質・テスト)
 テスト戦略・品質管理の方針
@@ -48,7 +48,7 @@
 | ファイル | 対象 | 概要 |
 |---------|------|------|
 | `EFFICIENT_TEAM_TEST_STRATEGY.md` | **全社** | 少人数チームのテスト戦略 |
-| `DOCKER_TESTING_GUIDE.md` | **Nemielu** | Dockerでのテスト実行方法 |
+| `DOCKER_TESTING_GUIDE.md` | **ミツプロ** | Dockerでのテスト実行方法 |
 | `TEAM_TEST_POLICY_AND_FLOW.md` | **全社** | テスト実装の具体的なフロー |
 | `TEST_COMPLETION_REPORT.md` | **Nemielu** | 過去のテスト整備報告書 |
 
@@ -70,7 +70,7 @@
 
 ### ステップ2: 担当プロジェクトの開発環境を構築する
 
-#### Nemieluプロジェクトの場合:
+#### ミツプロ (tax.mitsukaru-pro.co.jp) の場合:
 1. [`2_Development_Environment/GETTING_STARTED.md`](2_Development_Environment/GETTING_STARTED.md) を読む
 2. Dockerで開発環境を起動
 3. [`2_Development_Environment/DEVELOPMENT_GUIDE.md`](2_Development_Environment/DEVELOPMENT_GUIDE.md) で詳細を確認
