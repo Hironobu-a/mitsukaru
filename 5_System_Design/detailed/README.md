@@ -16,6 +16,7 @@
 | 05 | [フロントエンド設計](./05_FRONTEND_DESIGN.md) | ページ構成・コンポーネント・状態管理・SEO・テスト | フロントエンド |
 | 06 | [インフラ・CI/CD設計](./06_INFRASTRUCTURE_CICD.md) | Docker・AWS構成・GitHub Actions・監視・セキュリティ | インフラ/DevOps |
 | 07 | [実装ロードマップ](./07_IMPLEMENTATION_ROADMAP.md) | Sprint計画・タスク一覧・ブランチ戦略・完了条件 | 全員 |
+| 08 | [限界を超えるための戦略](./08_BEYOND_LIMITS_STRATEGY.md) | 社会価値・マネタイズ・UX飛躍・SEO拡張・競合参入障壁の構築 | 全員 |
 
 ---
 
